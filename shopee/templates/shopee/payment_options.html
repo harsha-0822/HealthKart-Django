@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Options</title>
+</head>
+<body>
+    <h1>Choose Payment Option</h1>
+    
+    <form method="post">
+        {% csrf_token %}
+        
+        <label for="payment_option_card">
+            <input type="radio" id="payment_option_card" name="payment_option" value="card" required>
+            Pay with Card
+        </label><br>
+        
+        <label for="payment_option_paypal">
+            <input type="radio" id="payment_option_paypal" name="payment_option" value="paypal" required>
+            Pay with PayPal
+        </label><br>
+        
+        <label for="payment_option_cod">
+            <input type="radio" id="payment_option_cod" name="payment_option" value="cod" required>
+            Cash on Delivery
+        </label><br>
+        
+        <button type="submit">Proceed to Payment</button>
+    </form>
+    
+    <p>Total Amount: {{ total_amount }} Rs</p>
+</body>
+</html>

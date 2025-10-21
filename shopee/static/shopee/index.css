@@ -1,0 +1,61 @@
+/* Custom CSS for Health-Kart homepage */
+
+body {
+    margin: 0;
+    background-color: black;
+    
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+.container-fluid{
+    background-color:rgb(65, 182, 160);
+    background-image: url('');
+    margin: 1px;
+    padding: 5px;
+}
+.nav-brand{
+    margin: 0px 0p;
+}
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/736x/89/82/ca/8982ca163d4eeea6cfd84b9f26863705.jpg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 50px;
+    
+    
+}
+
+h1 {
+    font-size: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(43, 134, 117);
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+
+}
+
+button {
+    width: 300px;
+    height: 55px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(201, 201, 201);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgb(4, 169, 106);
+    border: 1px solid transparent;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
