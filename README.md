@@ -103,6 +103,9 @@ http://127.0.0.1:8000/admin/
 ### Cart Page
 ![Cart Page](images/cart_empty_page.png)
 
+### Cart Page
+![Cart Page](images/cart_product_page.png)
+
 ### Login Page
 ![Login Page](images/login_page.png)
 
