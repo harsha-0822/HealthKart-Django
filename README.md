@@ -101,7 +101,7 @@ http://127.0.0.1:8000/admin/
 ![Product Details](images/product_details_page.png)
 
 ### Cart Page
-![Cart Page](images/cart_page.png)
+![Cart Page](images/cart_empty_page.png)
 
 ### Login Page
 ![Login Page](images/login_page.png)
