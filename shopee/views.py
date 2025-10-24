@@ -8,6 +8,16 @@ from django.core.mail import send_mail
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
 
+from django.http import HttpResponse
+from django.contrib.auth.models import User
+
+def create_admin_user(request):
+    if not User.objects.filter(username='admin').exists():
+        User.objects.create_superuser('admin', 'admin@example.com', 'admin123')
+        return HttpResponse("✅ Superuser created successfully!")
+    else:
+        return HttpResponse("⚠️ Superuser already exists!")
+
 @login_required
 def purchase(request):
     user = request.user
