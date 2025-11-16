@@ -97,11 +97,8 @@ http://127.0.0.1:8000/admin/
 ### Products Page
 ![Products Page](images/products_page.png)
 
-### Product Details
-![Product Details](images/product_details_page.png)
-
 ### Cart Page
-![Cart Page](images/cart_page.png)
+![Cart Page](images/cart_empty_page.png)
 
 ### Login Page
 ![Login Page](images/login_page.png)
@@ -114,6 +111,12 @@ http://127.0.0.1:8000/admin/
 
 ### Address Update Page
 ![Address Update Page](images/address_update_page.png)
+
+### Product Details
+![Product Details](images/product_details_page.png)
+
+### Cart Page
+![Cart Page](images/cart_product_page.png)
 
 ### Purchase Page
 ![Purchase Page](images/purchase_page.png)

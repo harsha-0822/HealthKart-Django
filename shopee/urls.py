@@ -21,6 +21,7 @@ urlpatterns = [
     path('logout/', auth_views.LogoutView.as_view(next_page='login_user'), name='logout'),
     path('purchase/', views.purchase, name='purchase'),
      path('products/', views.product_list, name='product_list'),
+    path('create-admin/', views.create_admin_user),
      
 
 ]
