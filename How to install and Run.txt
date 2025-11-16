@@ -1,0 +1,33 @@
+To run this code 
+Install this
+
+step 1:
+pip install virtual env
+	or
+py-m virtual env
+
+step2:
+env\scripts\activate
+
+step3:(install)
+pip install Django
+
+step4: (creating projectname)
+
+django-admin startproject <projectName>
+
+cd project<name>
+
+step5:(creating appname)
+py manage.py startapp <appName>
+
+step6:(open the code)
+code .
+
+
+To run this code 
+step1 to step3 
+and 
+use this code to run the project 
+py manage.py runserver
+
