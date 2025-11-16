@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background-color:rgb(65, 182, 160);
+    background-image: url('');
+    margin: 1px;
+    padding: 5px;
+}
+.bg-container {
+    padding: 50px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://img.freepik.com/free-vector/abstract-medical-wallpaper-template-design_53876-61804.jpg?t=st=1720861958~exp=1720865558~hmac=f5534069d848c93d7a10f866bba1bed3cc8480fec01436f40418964449db4681&w=996');
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+.list-unstyled{
+    margin: 0;
+    grid-row: span;
+}
+
+.products-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px;
+    grid-row: span;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 10px;
+    grid-row: inherit;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 90%; 
+    margin: 40px;
+    height: 400px; 
+    box-sizing: border-box;
+    background-color: #ffffff; 
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.product-img {
+    height: 360px;
+    width: 50px;
+    align-self: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.product-description {
+    margin-left: 20px;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
+}
+.img-container {
+    align-self: center;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3e3e3e;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+    height: 60px;
+    overflow-y: auto;
+    margin: 0;
+}
+
+.buy-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+
+.btn {
+    width: 80px;
+    height: 30px;
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    color: white;
+    background-color: #ffffff;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+    background-color:rgb(43, 134, 117);
+}
+
+.product-list-container {
+    display: flex;
+    align-items: center;
+}

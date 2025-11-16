@@ -1,0 +1,17 @@
+body{
+    margin: auto;
+}
+
+.container{
+    background-color:rgb(65, 182, 160);
+    background-image: url('');
+    margin: 1px;
+    padding: 5px;
+}
+h1{
+    font-size: xx-large;
+}
+h2{
+    font-size: larger;
+    font-style: italic;
+}
